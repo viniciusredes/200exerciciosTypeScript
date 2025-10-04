@@ -1,4 +1,6 @@
 //Escreva um programa que determina a estação do ano com base no mês.
+//Necessidade de iniciar o package.json e configurar o "type" : "module"
+// A partir disso a execução dos programas se dá pelo comendo npx ts-node --esm exercicio[N].ts
 import readline from 'readline';
 
 const rl = readline.createInterface({
